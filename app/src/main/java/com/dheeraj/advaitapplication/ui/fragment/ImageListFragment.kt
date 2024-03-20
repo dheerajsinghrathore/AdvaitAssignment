@@ -5,6 +5,7 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import com.dheeraj.advaitapplication.adapter.UnsplashPhotoAdapter
 import com.dheeraj.advaitapplication.data.UnsplashPhoto
@@ -64,8 +65,7 @@ class ImageListFragment : Fragment(), UnsplashPhotoAdapter.OnItemClickListener {
     }
 
     override fun onItemClick(photo: UnsplashPhoto) {
-//        val action = ImageListFragment.(photo)
-//        findNavController().navigate(action)
+        //TODO
     }
 
 }

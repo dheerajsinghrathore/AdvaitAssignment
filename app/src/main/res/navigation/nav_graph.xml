@@ -10,17 +10,5 @@
         android:name="com.dheeraj.advaitapplication.ui.fragment.ImageListFragment"
         android:label="Unsplash Gallery"
         tools:layout="@layout/fragment_image_list">
-        <action
-            android:id="@+id/action_imageListFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.dheeraj.advaitapplication.ui.fragment.DetailsFragment"
-        android:label="Photo"
-        tools:layout="@layout/fragment_details">
-<!--        <argument-->
-<!--            android:name="photo"-->
-<!--            app:argType="uz.boywonder.simpleunsplashapp.data.UnsplashPhoto" />-->
     </fragment>
 </navigation>
